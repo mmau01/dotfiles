@@ -1,0 +1,41 @@
+* {
+    background-color:	#1C2023E6;
+    border-color:	#FFFFFF00;
+    text-color:		#C7CCD1;
+    font:		"Source Sans Pro 12";
+}
+
+configuration {
+}
+
+#window {
+    anchor:		north;
+    location:		north;
+    width:		100%;
+    padding:		4px;
+    children:		[ horibox ];
+}
+
+#horibox {
+    orientation:	horizontal;
+    children:		[ prompt, entry, listview ];
+}
+
+#listview {
+    layout:		horizontal;
+    spacing:		5px;
+    lines:		100;
+}
+
+#entry {
+    expand:     	false;
+    width:      	10em;
+}
+
+#element {
+    padding: 		0px 2px;
+}
+
+#element selected {
+    text-color:		#C795AEF2;
+}

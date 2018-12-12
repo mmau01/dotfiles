@@ -1,0 +1,5 @@
+! Rofi config file
+rofi.lines: 4
+rofi.font: Source Code Pro 12
+rofi.show-icons: false
+rofi.theme: ~/.config/rofi/dmenu.rasi
